@@ -20,5 +20,5 @@ working in the C language. I update this repo with my learning progresses with h
 - This repo may contain some errors. If you notice any, please add a pull request.
 
 ---
-## Credits to README creator
+## Credits to READMEs creator
 + [Firdaus H. Salim](linktr.ee/firdaus_h_salim)
