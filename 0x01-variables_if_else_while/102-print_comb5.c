@@ -23,6 +23,8 @@ int main(void)
 			{
 				for (l = 0; l < 10 ; l++)
 				{
+				if (i + j != l + k && l >= j && k >= i)
+				{
 					putchar(ascii + i);
 					putchar(ascii + j);
 					putchar(' ');
@@ -32,6 +34,7 @@ int main(void)
 					{
 						putchar(',');
 						putchar(' ');
+					}
 					}
 				}
 			}
