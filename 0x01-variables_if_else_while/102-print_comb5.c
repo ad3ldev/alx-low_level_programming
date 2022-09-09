@@ -20,10 +20,10 @@ int main(void)
 		for (j = i+1 ; j < 100 ; j++)
 		{
 			putchar(ascii + i / 10);
-			putchar(ascii + j % 10);
+			putchar(ascii + i % 10);
 			putchar(' ');
-			putchar(ascii + k);
-			putchar(ascii + l);
+			putchar(ascii + j / 10);
+			putchar(ascii + j % 10);
 			if (i != 98 || j != 99)
 			{
 				putchar(',');
