@@ -13,30 +13,21 @@ int main(void)
 {
 	int ascii = 48;
 
-	int i, j, k, l;
+	int i, j;
 
-	for (i = 0; i < 10 ; i++)
+	for (i = 0; i < 100 ; i++)
 	{
-		for (j = 0 ; j < 10 ; j++)
+		for (j = i+1 ; j < 100 ; j++)
 		{
-			for (k = 0; k < 10 ; k++)
+			putchar(ascii + i / 10);
+			putchar(ascii + j % 10);
+			putchar(' ');
+			putchar(ascii + k);
+			putchar(ascii + l);
+			if (i != 98 || j != 99)
 			{
-				for (l = 0; l < 10 ; l++)
-				{
-				if (i + j != l + k && l >= j && k >= i)
-				{
-					putchar(ascii + i);
-					putchar(ascii + j);
-					putchar(' ');
-					putchar(ascii + k);
-					putchar(ascii + l);
-					if (i != 9 || j != 8)
-					{
-						putchar(',');
-						putchar(' ');
-					}
-					}
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
