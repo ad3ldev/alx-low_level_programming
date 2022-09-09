@@ -17,9 +17,12 @@ int main(void)
 
 	for (i = 0; i < 26 ; i++)
 	{
-		if (i != 16 || i != 4)
+		if (i != 16)
 		{
-			putchar(ascii + i);
+			if (i != 4)
+			{
+				putchar(ascii + i);
+			}
 		}
 	}
 	putchar('\n');
