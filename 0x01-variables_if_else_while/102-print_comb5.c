@@ -17,7 +17,7 @@ int main(void)
 
 	for (i = 0; i < 100 ; i++)
 	{
-		for (j = i+1 ; j < 100 ; j++)
+		for (j = i + 1 ; j < 100 ; j++)
 		{
 			putchar(ascii + i / 10);
 			putchar(ascii + i % 10);
