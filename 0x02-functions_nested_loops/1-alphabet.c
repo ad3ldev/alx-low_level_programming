@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * printing alphabet
- * 
+ * print_alphabet - printing alphabet
+ *
  *
  * Return: void
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	int i, ch;
 
@@ -14,7 +14,7 @@ void print_alphabet(void);
 
 	for (i = 0 ; i < 26 ; i++)
 	{
-		_putchar(ch+i);
+		_putchar(ch + i);
 	}
 	_putchar('\n');
 	return (0);
