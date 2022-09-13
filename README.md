@@ -7,6 +7,7 @@ working in the C language. I update this repo with my learning progresses with h
 
 * [0x00. C - Hello, World](./0x00-hello_world)
 * [0x01. C - Variables, if, else, while](./0x01-variables_if_else_while)
+* [0x02. C - Functions, nested loops](./0x02-functions_nested_loops)
 
 - more projects are coming soon!!
 - I am on my way to be the best software engineer that I  can possibly  be!!
