@@ -7,23 +7,21 @@
  */
 int main(void)
 {
-	long i, n1, n2, temp;
+	long i, n1, n2, temp, sum;
 
 	n1 = 1;
 	n2 = 2;
-	printf("%ld, ", n1);
+	sum = n1;
 	for (i = 0 ; i <= 10000 ; i++)
 	{
 		if (n2 > 4000000)
 			break;
-		printf("%ld", n2);
-		if (i != 10000)
-			printf(", ");
+		sum += n2;
 		temp = n2;
 		n2 = n1 + n2;
 		n1 = temp;
 	}
-	printf("\n");
+	printf("%ld\n", sum);
 	return (0);
 }
 
