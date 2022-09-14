@@ -14,6 +14,7 @@ int main(void)
 	sum = n1;
 	for (i = 0 ; i <= 10000 ; i++)
 	{
+		printf("%ld\n", sum);
 		if (sum > 4000000)
 			break;
 		sum += n2;
