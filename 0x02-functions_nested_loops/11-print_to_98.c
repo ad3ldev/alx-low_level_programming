@@ -22,16 +22,13 @@ void print_to_98(int n)
 		neg = 1;
 		i *= -1;
 		}
-		
 		if (i >= 100)
 		{
 		_putchar('0' + (i / 100));
 		_putchar('0' + (i % 100) / 10);
 		}
 		else if (i >= 10)
-		{
-		_putchar('0' + (i / 10));
-		}
+			_putchar('0' + (i / 10));
 		_putchar('0' + (i % 10));
 		_putchar(',');
 		_putchar(' ');
@@ -43,13 +40,9 @@ void print_to_98(int n)
 		}
 
 		if (i > 98)
-		{
 			i--;
-		}
 		else
-		{
 			i++;
-		}
 	}
 	_putchar('9');
 	_putchar('8');
