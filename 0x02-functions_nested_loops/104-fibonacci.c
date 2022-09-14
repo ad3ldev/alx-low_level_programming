@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * main - Prints first 50 fibonacci numbers
+ * main - Prints first 98 fibonacci numbers
  * Return: Always Success
  */
 int main(void)
 {
-	unsigned long long i, n1, n2, temp;
+	unsigned long int i, n1, n2, next;
 
 	n1 = 1;
 	n2 = 2;
@@ -18,9 +18,9 @@ int main(void)
 		printf("%lu", n2);
 		if (i != 97)
 			printf(", ");
-		temp = n2;
-		n2 = n1 + n2;
-		n1 = temp;
+		next = n1 + n2;
+		n1 = n2;
+		n2 = next;
 	}
 	printf("\n");
 	return (0);
