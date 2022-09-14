@@ -11,11 +11,10 @@ int main(void)
 
 	n1 = 1;
 	n2 = 2;
-	printf("%ld ", n1);
+	printf("%ld, ", n1);
 	for (i = 0 ; i <= 48 ; i++)
 	{
-		p
-	printf("%ld", n2);
+		printf("%ld", n2);
 		if (i != 48)
 			printf(", ");
 	}
