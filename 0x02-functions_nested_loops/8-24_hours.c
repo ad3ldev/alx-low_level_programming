@@ -1,20 +1,25 @@
 #include "main.h"
 
 /**
- * print_alphabet - printing alphabet
+ * jack_bauer - printing 24 hours
  *
  *
  * Return: void
  */
-void print_alphabet(void)
+void jack_bauer(void)
 {
-	int i, ch;
+	int min, hour;
 
-	ch = 97;
-
-	for (i = 0 ; i < 26 ; i++)
+	for (hour = 0 ; hour < 24 ; hour++)
 	{
-		_putchar(ch + i);
+	for (min = 0 ; min < 60 ; min++)
+	{
+		_putchar('0' + (hour / 10));
+		_putchar('0' + (hour % 10));
+		_putchar(':');
+		_putchar('0' + (min / 10));
+		_putchar('0' + (min % 10));
 	}
 	_putchar('\n');
+	}
 }
