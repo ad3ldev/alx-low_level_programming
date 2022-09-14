@@ -15,7 +15,7 @@ int main(void)
 	for (i = 0 ; i <= 97 ; i++)
 	{
 		printf("%lu", n2);
-		if (i != 47)
+		if (i != 97)
 			printf(", ");
 		temp = n2;
 		n2 = n1 + n2;
