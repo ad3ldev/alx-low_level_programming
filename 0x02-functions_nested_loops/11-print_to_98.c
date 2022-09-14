@@ -22,8 +22,13 @@ void print_to_98(int n)
 		neg = 1;
 		i *= -1;
 		}
-
-		if (i >= 10)
+		
+		if (i >= 100)
+		{
+		_putchar('0' + (i / 100));
+		_putchar('0' + (i % 100) / 10);
+		}
+		else if (i >= 10)
 		{
 		_putchar('0' + (i / 10));
 		}
