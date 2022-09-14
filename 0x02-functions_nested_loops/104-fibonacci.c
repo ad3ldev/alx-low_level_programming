@@ -11,7 +11,6 @@ int main(void)
 
 	n1 = 1;
 	n2 = 2;
-	temp = 0;
 	printf("%lu, ", n1);
 	for (i = 0 ; i <= 97 ; i++)
 	{
