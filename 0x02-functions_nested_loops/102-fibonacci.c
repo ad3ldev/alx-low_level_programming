@@ -18,6 +18,7 @@ int main(void)
 		if (i != 48)
 			printf(", ");
 	}
-	printf("\n";
+	printf("\n");
 	return (0);
 }
+
