@@ -30,7 +30,7 @@ functions written in the project.
 ## Tasks :page_with_curl:
 
 * **0. _putchar**
-  * [0-holberton.c](./0-holberton.c): C program that prints `Holberton`, followed by a
+  * [0-putchar.c](./0-putchar.c): C program that prints `_putchar`, followed by a
   new line. Returns 0.
 
 * **1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game**
@@ -73,7 +73,7 @@ functions written in the project.
 * **10. a + b**
   * [10-add.c](./10-add.c): C function that returns the addition of two integers.
 
-* **11. Holberton School, 98 Battery Street, San Francisco CA 94111**
+* **11. 98 Battery Street, the OG**
   * [11-print_to_98.c](./11-print_to_98.c): C function that prints all natural numbers
   from an input to `98` followed by a new line, as follows:
     * Numbers are separated by a comma followed by a space.
