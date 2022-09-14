@@ -11,14 +11,14 @@ int main(void)
 
 	n1 = 1;
 	n2 = 2;
-	printf("%d ", n1);
+	printf("%ld ", n1);
 	for (i = 0 ; i <= 48 ; i++)
 	{
 		p
-	printf("%d", n2);
+	printf("%ld", n2);
 		if (i != 48)
 			printf(", ");
 	}
-	printf("%d\n", sum);
+	printf("\n";
 	return (0);
 }
