@@ -7,20 +7,18 @@
  */
 int main(void)
 {
-	int i, n1, n2, temp;
+	long i, n1, n2;
 
 	n1 = 1;
 	n2 = 2;
-	printf("%d\n", n1);
+	printf("%d ", n1);
 	for (i = 0 ; i <= 48 ; i++)
 	{
-		printf("%d\n", n2);
+		p
+	printf("%d", n2);
 		if (i != 48)
 			printf(", ");
-		temp = n2;
-		n2 = n1 + n2;
-		n1 = temp;
 	}
-	printf("\n");
+	printf("%d\n", sum);
 	return (0);
 }
