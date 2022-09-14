@@ -11,13 +11,13 @@ int main(void)
 
 	n1 = 1;
 	n2 = 2;
-	sum = n1;
+	sum = 0;
 	for (i = 0 ; i <= 10000 ; i++)
 	{
-		printf("%ld\n", sum);
 		if (sum > 4000000)
 			break;
-		sum += n2;
+		if (n2 % 2 == 0)
+			sum += n2;
 		temp = n2;
 		n2 = n1 + n2;
 		n1 = temp;
