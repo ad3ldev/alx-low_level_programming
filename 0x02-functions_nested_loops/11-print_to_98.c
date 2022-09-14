@@ -46,4 +46,7 @@ void print_to_98(int n)
 			i++;
 		}
 	}
+	_putchar('9');
+	_putchar('8');
+	-putchar('\n');
 }
