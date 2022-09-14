@@ -14,7 +14,7 @@ int main(void)
 	sum = n1;
 	for (i = 0 ; i <= 10000 ; i++)
 	{
-		if (n2 > 4000000)
+		if (sum > 4000000)
 			break;
 		sum += n2;
 		temp = n2;
