@@ -99,9 +99,9 @@ functions written in the project.
   * [103-fibonacci.c](./103-fibonacci.c): C program that prints the sum of even-valued
   Fibonacci numbers not exceeding 4,000,000, followed by a new line.
 
-* **16. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A+**
-  * [104-fibonacci.c](./104-fibonacci.c): C program that prints the first 98 Fibonacci
-  numbers, starting with `1` and `2`, followed by a new line, without using `long long`,
-  `malloc`, pointers, arrays, structures, or any library besides the standard.
-  Numbers are separated by a comma followed by a space.
+~~* **16. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A+**~~
+  ~~* [104-fibonacci.c](./104-fibonacci.c): C program that prints the first 98 Fibonacci~~
+  ~~numbers, starting with `1` and `2`, followed by a new line, without using `long long`,~~
+  ~~`malloc`, pointers, arrays, structures, or any library besides the standard.~~
+  ~~Numbers are separated by a comma followed by a space.~~
 
