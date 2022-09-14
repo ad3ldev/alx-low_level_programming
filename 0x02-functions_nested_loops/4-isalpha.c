@@ -13,7 +13,7 @@ int _isalpha(int c)
 
 	a = 97;
 
-	A = 65
+	A = 65;
 
 	if ((c >= a && c < a + 26) || (c >= A && c < A + 26))
 	{
