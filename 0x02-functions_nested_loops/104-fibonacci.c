@@ -11,10 +11,10 @@ int main(void)
 
 	n1 = 1;
 	n2 = 2;
-	printf("%uld, ", n1);
+	printf("%lu, ", n1);
 	for (i = 0 ; i <= 97 ; i++)
 	{
-		printf("%uld", n2);
+		printf("%lu", n2);
 		if (i != 47)
 			printf(", ");
 		temp = n2;
