@@ -11,7 +11,7 @@ int _isupper(int c)
 	int A;
 
 	A = 65;
-	if (c >= A && c < A+26)
+	if (c >= A && c < A + 26)
 	{
 		return (1);
 	}
