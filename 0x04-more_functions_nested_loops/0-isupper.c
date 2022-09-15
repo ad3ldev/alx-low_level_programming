@@ -10,7 +10,7 @@ int _isupper(int c)
 {
 	int A;
 
-	A = 'A';
+	A = 65;
 	if (c >= A && c < A + 26)
 	{
 		return (1);
