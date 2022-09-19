@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _puts - prints to the stdout
- * @str: string to be printed
+ * print_rev - prints to the stdout in reverse
+ * @s: string to be printed
  * Return: void
  */
 
-void _puts(char *str)
+void print_rev(char *s)
 {
 	int size;
 
