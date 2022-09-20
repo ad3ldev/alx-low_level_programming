@@ -3,7 +3,7 @@
 /**
  * _atoi - get first int of string
  * @s: string to change into int
- * Return: int 
+ * Return: int
  */
 
 int _atoi(char *s)
