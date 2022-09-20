@@ -6,8 +6,6 @@
  */
 int main(void)
 {
-	int sum;
-	char c;
 	putchar(2772 - 2464);
 	return (0);
 }
