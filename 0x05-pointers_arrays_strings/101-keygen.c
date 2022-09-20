@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	putchar(2772 - 2464);
+	putchar(2772 - 2645);
 	return (0);
 }
