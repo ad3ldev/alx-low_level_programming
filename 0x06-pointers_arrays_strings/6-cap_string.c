@@ -11,9 +11,9 @@ char *cap_string(char *str)
 	int i, flag;
 
 	i = 0;
+	flag = 1;
 	while (str[i])
 	{
-		flag = 0;
 		if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n')
 			flag = 1;
 		else if (str[i] == ',' || str[i] == ';' || str[i] == '.')
@@ -23,7 +23,13 @@ char *cap_string(char *str)
 		else if (str[i] == ')' || str[i] == '{' || str[i] == '}')
 			flag = 1;
 		else if (flag)
-			str[i] = str[i] - ('a' - 'A');
+		{
+			if (str[i] >= 'a' && str[i] <= 'z')
+				str[i] = str[i] - ('a' - 'A');
+			flag = 0;
+		}
+		else
+			flag = 0;
 		i++;
 	}
 	return (str);
