@@ -9,7 +9,7 @@ int is_divisible(int num, int div);
  *         If the number is not divisible - 1.
  */
 int is_divisible(int num, int div)
-{	
+{
 	if (div == num)
 		return (1);
 	if (num % div == 0)
