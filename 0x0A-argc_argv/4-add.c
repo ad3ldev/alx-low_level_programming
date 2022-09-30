@@ -20,10 +20,10 @@ int main(int argc, char *argv[])
 	for (i = 1; i < argc; i++)
 	{
 	str = argv[i];
-	length = strlen(ptr);
+	length = strlen(str);
 	for (j = 0; j < length; j++)
 	{
-	if (isdigit(*(ptr + j)) == 0)
+	if (isdigit(*(str + j)) == 0)
 	{
 		printf("Error\n");
 		return (1);
