@@ -13,31 +13,23 @@
 
 int main(int argc, char *argv[])
 {
-	int sum, i, temp;
-
-	sum = 0;
+	int i, j, length, sum;
+	char *str;
 	
-	if (argc < 3)
+	sum = 0;
+	for (i = 1; i < argc; i++)
 	{
-	printf("%d\n", sum);
-	return (0);
+	str = argv[i];
+	length = strlen(ptr);
+	for (j = 0; j < length; j++)
+	{
+	if (isdigit(*(ptr + j)) == 0)
+	{
+		printf("Error\n");
+		return (1);
 	}
-
-	for (i = 1 ; i < argc ; i++)
-	{
-		temp = atoi(argv[i]);
-		if (temp == 0)
-		{
-			if (strlen(argv[i]) == 1)
-			{
-				if (!isdigit(argv[i][0]))
-				{
-				printf("Error\n");
-				return (1);
-				}
-			}
-		}
-		sum += temp;
+	}
+	sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
 	return (0);
