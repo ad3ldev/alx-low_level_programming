@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * main - Prints sum of 2 arguments
+ * main - Prints sum of all arguments
  * @argc: Number of command line arguments
  * @argv: Array name
  * Return: 0
@@ -11,15 +11,23 @@
 
 int main(int argc, char *argv[])
 {
-	int sum;
+	int sum, i, temp;
 
-	if (argc < 3)
+	sum = 0;
+
+	for (i = 1 ; i < argc ; i++)
 	{
-		printf("Error\n");
-		return (1);
+		temp = atoi(argv[i]);
+		if (temp == 0)
+		{
+			if (strlen(argv[i]) != 1)
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		sum += temp;
 	}
-
-	sum = atoi(argv[1]) + atoi(argv[2]);
 	printf("%d\n", sum);
 
 	return (0);
