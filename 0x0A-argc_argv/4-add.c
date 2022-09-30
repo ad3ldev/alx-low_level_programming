@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
 
 /**
  * main - Prints sum of all arguments
@@ -20,10 +22,13 @@ int main(int argc, char *argv[])
 		temp = atoi(argv[i]);
 		if (temp == 0)
 		{
-			if (strlen(argv[i]) != 1)
+			if (strlen(argv[i]) == 1)
 			{
+				if (!isdigit(argv[i][0]))
+				{
 				printf("Error\n");
 				return (1);
+				}
 			}
 		}
 		sum += temp;
