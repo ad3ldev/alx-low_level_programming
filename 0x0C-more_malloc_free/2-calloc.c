@@ -18,7 +18,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-	mem = malloci(size * nmemb);
+	mem = malloc(size * nmemb);
 	if (mem == NULL)
 		return (NULL);
 	filler = mem;
