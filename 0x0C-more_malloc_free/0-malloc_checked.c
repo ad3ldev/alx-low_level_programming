@@ -14,8 +14,3 @@ void *malloc_checked(unsigned int b)
 		exit(98);
 	return (mem);
 }
-
-int main()
-{
-	return(0);
-}
