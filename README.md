@@ -13,6 +13,15 @@ working in the C language. I update this repo with my learning progresses with h
 * [0x05. C - Pointers, arrays and strings](./0x05-pointers_arrays_strings)
 * [0x06. C - More pointers, arrays and strings](./0x06-pointers_arrays_strings)
 * [0x07. C - Even more pointers, arrays and strings](./0x07-pointers_arrays_strings)
+* [0x08. C - Recursion](./0x08-recursion)
+* [0x09. C - Static libraries](./0x09-static_libraries)
+* [0x0A. C - argc, argv](./0x0A-argc_argv)
+* [0x0B. C - malloc, free](./0x0B-malloc_free)
+* [0x0C. C - More malloc, free](./0x0C-more_malloc_free)
+* [0x0D. C - Preprocessor](./0x0D-preprocessor)
+* [0x0E. C - Structures, typedef](./0x0E-structures_typedef)
+* [0x0F. C - Function pointers](./0x0F-function_pointers)
+* [0x10. C - Variadic functions](./0x10-variadic_functions)
 
 - more projects are coming soon!!
 - I am on my way to be the best software engineer that I  can possibly  be!!
