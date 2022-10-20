@@ -37,4 +37,4 @@ working in the C language. I update this repo with my learning progresses with h
 
 ---
 ## Credits to READMEs creator
-+ [Firdaus H. Salim](linktr.ee/firdaus_h_salim)
++ [Firdaus H. Salim](https://linktr.ee/firdaus_h_salim)
