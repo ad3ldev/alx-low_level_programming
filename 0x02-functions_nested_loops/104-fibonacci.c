@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	const unsigned long int half = 1000000000000L;
+	const unsigned long int half = 100000000;
 	unsigned long int n1_h, n1_l, n2_h, n2_l, next_h, next_l;
 	int i;
 
@@ -22,14 +22,16 @@ int main(void)
 		next_l = n1_l + n2_l;
 		next_h = n1_h + n2_h + (next_l / half);
 		next_l %= half;
-		if(next_h > 0)
+		if (next_h > 0)
 			printf("%lu%lu", next_h, next_l);
 		else
 			printf("%lu", next_l);
 		if (i != 98)
 			printf(", ");
-		n1_h = n2_h; n1_l = n2_l;
-		n2_h = next_h; n2_l = next_l;
+		n1_h = n2_h;
+		n1_l = n2_l;
+		n2_h = next_h;
+		n2_l = next_l;
 	}
 	printf("\n");
 	return (0);
