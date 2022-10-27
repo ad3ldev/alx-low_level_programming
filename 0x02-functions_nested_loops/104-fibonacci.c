@@ -7,19 +7,29 @@
  */
 int main(void)
 {
-	unsigned long int i, n1, n2, next;
+	const long long int half = 1000000000000LL;
+	unsigned long long int n1_h, n1_l, n2_h, n2_l, next_h, next_l;
+	int i;
 
-	n1 = 1;
-	n2 = 2;
-	printf("%lu, ", n1);
-	for (i = 0 ; i <= 97 ; i++)
+	n1_h = 0;
+	n2_h = 0;
+	n1_l = 1;
+	n2_l = 2;
+	printf("%llu, ", n1_l);
+	printf("%llu, ", n2_l);
+	for (i = 2 ; i <= 98 ; i++)
 	{
-		printf("%lu", n2);
-		if (i != 97)
+		next_l = n1_l + n2_l;
+		next_h = n1_h + n2_h + (next_l / half);
+		next_l %= half;
+		if(next_h > 0)
+			printf("%llu%llu", next_h, next_l);
+		else
+			printf("%llu", next_l);
+		if (i != 98)
 			printf(", ");
-		next = n1 + n2;
-		n1 = n2;
-		n2 = next;
+		n1_h = n2_h; n1_l = n2_l;
+		n2_h = next_h; n2_l = next_l;
 	}
 	printf("\n");
 	return (0);
