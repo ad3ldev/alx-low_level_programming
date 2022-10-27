@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	const unsigned long int half = 1000000000000LL;
+	const unsigned long int half = 1000000000000L;
 	unsigned long int n1_h, n1_l, n2_h, n2_l, next_h, next_l;
 	int i;
 
