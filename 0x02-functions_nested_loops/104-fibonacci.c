@@ -17,7 +17,7 @@ int main(void)
 	n2_l = 2;
 	printf("%lu, ", n1_l);
 	printf("%lu, ", n2_l);
-	for (i = 2 ; i <= 98 ; i++)
+	for (i = 2 ; i <= 96 ; i++)
 	{
 		next_l = n1_l + n2_l;
 		next_h = n1_h + n2_h + (next_l / half);
@@ -26,7 +26,7 @@ int main(void)
 			printf("%lu%lu", next_h, next_l);
 		else
 			printf("%lu", next_l);
-		if (i != 98)
+		if (i != 96)
 			printf(", ");
 		n1_h = n2_h;
 		n1_l = n2_l;
