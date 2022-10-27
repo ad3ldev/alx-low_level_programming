@@ -23,7 +23,7 @@ int main(void)
 		next_h = n1_h + n2_h + (next_l / half);
 		next_l %= half;
 		if (next_h > 0)
-			printf("%lu%lu", next_h, next_l);
+			printf("%lu%08lu", next_h, next_l);
 		else
 			printf("%lu", next_l);
 		if (i != 97)
